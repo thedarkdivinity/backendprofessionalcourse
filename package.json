@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/thedarkdivinity/backendprofessionalcourse/issues"
   },
-  "homepage": "https://github.com/thedarkdivinity/backendprofessionalcourse#readme"
+  "homepage": "https://github.com/thedarkdivinity/backendprofessionalcourse#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
 }
