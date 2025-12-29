@@ -5,7 +5,7 @@ subscriber:{
     ref: "User"
 },
 chanel:{
-    type: Schema.Types.ObjectId, //one who is subscribing
+    type: Schema.Types.ObjectId, //one to whom subscriber is subscribing
     ref: "User"
 },
 },{timestamps: true})
